@@ -1,0 +1,86 @@
+
+/* https://iro-color.com/colorchart/word/iro.php?q=5%E6%9C%88 */
+// color ////////////////////////////////////
+$main-color: #1565c0;
+$p-light: #5e92f3;
+$p-dark: #003c8f;
+$text-p-color: #ffffff;
+$secondary-color: #b0bec5;
+$s-light: #e2f1f8;
+$s-dark: #808e95;
+$text-s-color: #000000;
+$accent-color: #ffc229ff;
+//////////////////////////////////////////////
+
+body {
+    font-family: "Kosugi", sans-serif;
+    color: $text-s-color;
+
+
+    //     .header-description {
+    //         p {
+    //             font-size: 1.5rem;
+    //             border-radius: 10px;
+
+    //             span {
+    //                 font-size: 4.1rem;
+    //                 text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+    //                 font-weight: 900;
+    //             }
+
+    //             span::after {
+    //                 content: "\2706";
+    //             }
+    //         }
+    //     }
+    // }
+
+
+    // main {
+    //     // background-image: url("../image/topimg.jpg");
+    //     background-size: cover;
+    //     background-position: top center;
+
+    //     h2 {
+    //         color: $text-p-color;
+    //         font-size: 3rem;
+    //         font-weight: 300;
+    //         font-stretch: expanded;
+    //         text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+    //     }
+
+    //     p {
+    //         color: $text-p-color;
+    //         font-size: 1rem;
+    //         font-weight: lighter;
+    //         text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+    //     }
+    // }
+
+
+    // .company {
+
+    //     h3 {
+    //         color: $main-color;
+    //         font-size: 2.4rem;
+    //     }
+
+    //     p {
+    //         font-size: 1.4rem;
+    //     }
+
+    // }
+
+
+    // .link-company {
+    //     width: 500px;
+    //     // background-image: url("../img/entrance.jpg");
+    // }
+
+    // footer {
+    //     background-color: $main-color;
+    //     color: white;
+    //     font-weight: 300;
+    // }
+
+}
