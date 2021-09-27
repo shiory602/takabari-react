@@ -1,3 +1,4 @@
+
 /* https://iro-color.com/colorchart/word/iro.php?q=5%E6%9C%88 */
 // color ////////////////////////////////////
 $main-color: #1565c0;
@@ -16,85 +17,70 @@ body {
     color: $text-s-color;
 
 
-    header {
-        background-color: $main-color;
-        color: $text-p-color;
+    //     .header-description {
+    //         p {
+    //             font-size: 1.5rem;
+    //             border-radius: 10px;
 
-        .first-nav {
+    //             span {
+    //                 font-size: 4.1rem;
+    //                 text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+    //                 font-weight: 900;
+    //             }
 
-            ul {
-
-                li {
-                    font-weight: 900;
-                }
-            }
-        }
-
-
-        .header-description {
-            p {
-                font-size: 1.5rem;
-                border-radius: 10px;
-
-                span {
-                    font-size: 4.1rem;
-                    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
-                    font-weight: 900;
-                }
-
-                span::after {
-                    content: "\2706";
-                }
-            }
-        }
-    }
+    //             span::after {
+    //                 content: "\2706";
+    //             }
+    //         }
+    //     }
+    // }
 
 
-    main {
-        background-image: url("../img/topimg.jpg");
-        background-size: cover;
-        background-position: top center;
+    // main {
+    //     // background-image: url("../image/topimg.jpg");
+    //     background-size: cover;
+    //     background-position: top center;
 
-        h2 {
-            color: $text-p-color;
-            font-size: 3rem;
-            font-weight: 300;
-            font-stretch: expanded;
-            text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
-        }
+    //     h2 {
+    //         color: $text-p-color;
+    //         font-size: 3rem;
+    //         font-weight: 300;
+    //         font-stretch: expanded;
+    //         text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+    //     }
 
-        p {
-            color: $text-p-color;
-            font-size: 1rem;
-            font-weight: lighter;
-            text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
-        }
-    }
-
-
-    .company {
-
-        h3 {
-            color: $main-color;
-            font-size: 2.4rem;
-        }
-
-        p {
-            font-size: 1.4rem;
-        }
-
-    }
+    //     p {
+    //         color: $text-p-color;
+    //         font-size: 1rem;
+    //         font-weight: lighter;
+    //         text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+    //     }
+    // }
 
 
-    .link-company {
-        width: 500px;
-        background-image: url("../img/entrance.jpg");
-    }
+    // .company {
 
-    footer {
-        background-color: $main-color;
-        color: white;
-        font-weight: 300;
-    }
+    //     h3 {
+    //         color: $main-color;
+    //         font-size: 2.4rem;
+    //     }
+
+    //     p {
+    //         font-size: 1.4rem;
+    //     }
+
+    // }
+
+
+    // .link-company {
+    //     width: 500px;
+    //     // background-image: url("../img/entrance.jpg");
+    // }
+
+    // footer {
+    //     background-color: $main-color;
+    //     color: white;
+    //     font-weight: 300;
+    // }
 
 }
