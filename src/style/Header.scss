@@ -1,0 +1,37 @@
+@import '_base';
+
+.header {
+    background-color: $main-color;
+    color: $text-p-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 100px;
+
+    &_logo,
+    &_menu,
+    &_contact {
+        display: flex;
+        height: 100%;
+        align-items: center;
+
+        li {
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 18px;
+
+            span {
+                font-weight: bold;
+                font-size: 48px;
+
+                &::after {
+                    content: "\2706";
+                }
+            }
+        }
+    }
+}
